@@ -1,0 +1,155 @@
+/* background */
+html{
+	height:100%;
+}
+body{
+	height:100%;
+	background: #2e2a23;
+	background-image: -webkit-radial-gradient(20% 40%,cover circle, #3e392f, #221e17);
+	background-image: -moz-radial-gradient(20% 40%,contain circle, #3e392f, #221e17);
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+/*banner*/
+
+.banner{
+	background-color: #2e2a23;
+	width: 100%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.nav-title-wrapper{
+	background-color:none;
+	position:relative;
+	width:100%;
+	height:80px;
+	margin:0px;
+}
+.title-wrapper{
+	background-color: none;
+	width:23%;
+	position: relative;
+	float:left;
+	height:80px;
+	margin-left:4%;
+	background:url("images/landscapes/image1.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.nav-bar-wrapper{
+	background-color:none;
+	position:relative;
+	float:right;
+	margin-right:4%;
+	width:69%;
+}
+/* menu bar*/
+
+
+
+/* menu button element*/
+
+.navbtn{
+	width:20%;
+	padding-top:30px;
+	
+}
+
+.nav-bar strong{
+	font-size: 13px;
+}
+.nav-bar a{
+	background-color: #000;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	font: menu;
+	text-transform: uppercase;	
+	width:50%;
+	color: white;
+}
+
+.home{
+	float:right;
+	margin-right: 5px;
+}
+.art{
+	float:right;
+	margin-right: 5px;
+}
+.contact{
+	float:right;
+	margin-right: 5px;
+}
+.menu-container{   /*art*/
+	z-index:1;
+	font:menu;
+	position: absolute;
+	margin-left:53.7%;
+	margin-top: -33px;
+	display: none;
+	box-shadow: 10px 10px 5px;
+}
+.menu-container div{
+	border-radius: 2px;
+	background-color: black;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 5px;
+	color: white;
+	
+}
+
+/*   image/body section   */
+
+.image-container{
+	background-color: none;
+	width:100%;
+	height: 100%;
+	position:relative;
+}
+.image-container .container{
+	background-color: none;
+	position: relative;
+}
+.thumbnail-grid{
+	display: inline-block;
+	position: relative;
+	float: left;
+	background-color: none;
+	padding:0px;
+	margin-left:4%;
+	margin-top: 2%;
+	width: 23.13%;
+}
+.grid-box{
+	background-color: none;
+	height: 160px;
+	width: 140px;
+	display: inline-block;
+	margin: 2px;
+	background-size: cover;
+}
+
+.image-viewer{
+	position: relative;
+	display: inline-block;
+	float:right;
+	background-color: #A0A0A0;
+	width: 72.5%;
+	height:500px;
+	background: url("images/landscapes/image7.jpg") no-repeat center;
+	background-size: contain;
+	margin-top:39px;
+}
+/*  footer  */
+
+.footer{
+	width:100%;
+	position: relative;
+	background-color: #2e2a23;
+}
+
+/* other elements & classes */
